@@ -1,0 +1,46 @@
+.wrapper-exploration {
+  background-image: url('../../assets/images/mountains-universe-3.png');
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+.wrapper-exploration section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  gap: 2.4rem;
+  width: 65%;
+  padding: 0 3rem;
+}
+
+.wrapper-exploration section button {
+  border: 2px var(--light) solid;
+  border-radius: .5rem;
+  background-color: transparent;
+  color: var(--light);
+  font-size: 1.4rem;
+  padding: 1.2rem 3.2rem;
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+
+.wrapper-exploration section button:hover {
+  transform: scale(1.050);
+}
+
+@media (max-width: 768px) {
+  .wrapper-exploration section {
+    width: 90%;
+  }
+}
+
+@media (max-width: 465px) {
+  .wrapper-exploration section {
+    width: 100%;
+  }
+}
+

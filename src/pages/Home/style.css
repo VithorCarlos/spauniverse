@@ -1,0 +1,33 @@
+.wrapper-home {
+  background-image: url('../../assets/images/mountains-universe-1.png');
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+.wrapper-home section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2.4rem;
+}
+
+.wrapper-home section button {
+  border: 2px var(--light) solid;
+  border-radius: .5rem;
+  background-color: transparent;
+  color: var(--light);
+  font-size: 1.4rem;
+  padding: 1.2rem 3.2rem;
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+
+.wrapper-home section button:hover {
+  transform: scale(1.050);
+}
+
